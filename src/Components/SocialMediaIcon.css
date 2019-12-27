@@ -1,0 +1,18 @@
+.social-media-icon{
+    margin: 0%;
+}
+
+a{
+    color: black;
+}
+
+.social-media-icon-first{
+    margin: 0 auto;
+    margin-right: 0%;
+}
+
+.social-media-icon-last{
+    margin: 0 auto;
+    margin-left: 0%;
+
+}

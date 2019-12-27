@@ -1,0 +1,14 @@
+.social-media-footer-container{
+    width: 100%;
+    height: fit-content;
+    z-index: 10;
+}
+
+.icons-container{
+    display: flex;
+    text-align: center;
+}
+
+.mostleft{
+    margin-right: 0%;
+}

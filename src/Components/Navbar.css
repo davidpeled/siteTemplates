@@ -1,0 +1,13 @@
+.navbar-container{
+    display: block;
+    border-radius: 25px;
+}
+
+.navbar-container > ul > li{
+    display: inline;
+    margin: 1%;
+}
+
+#navbarButton{
+    display: inline;
+}

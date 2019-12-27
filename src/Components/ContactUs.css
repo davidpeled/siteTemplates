@@ -1,0 +1,30 @@
+.contact-box-container{
+    width: 100%;
+}
+
+.contact-form{
+    display: inline-flex;
+    width: 75%;
+}
+
+.office-map{
+    display: inline;
+}
+
+.email-header > div{
+    display: inline;
+    padding: 1%;
+}
+
+.email-contant{
+    margin: 1%;
+    width: 100%;
+}
+
+#emailAdress{
+    width: 30%;
+}
+
+#emailSubject{
+    width: 30%;
+}
