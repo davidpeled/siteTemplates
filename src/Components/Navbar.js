@@ -1,6 +1,5 @@
 import React from 'react';
 import './Navbar.css'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons'
 import { library } from '@fortawesome/fontawesome-svg-core';
 
@@ -10,7 +9,7 @@ function Navbar(props){
     return(
         <div className='navbar-container'>
             <ul>
-                <button id='navbarButton'><FontAwesomeIcon icon={faBars}/></button>
+                <div className='brand-logo-container'><h1>Logo items</h1></div>
                 <li>items</li>
                 <li>items</li>
             </ul>

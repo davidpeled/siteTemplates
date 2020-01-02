@@ -1,13 +1,29 @@
 .navbar-container{
     display: block;
-    border-radius: 25px;
+    width: 100%;
 }
 
 .navbar-container > ul > li{
-    display: inline;
+    display: inline-flex;
     margin: 1%;
+    height: 100%;
+    border-radius: 25px;
+    border-color: blueviolet;
+    border-style: solid;
+    width: 10%;
+    text-align: center;
 }
 
-#navbarButton{
-    display: inline;
+.brand-logo-container{
+    display: inline-flex;
+}
+
+ul{
+    height: 100%;
+    padding: 0%;
+    margin: 0%;
+}
+
+ul > div > h1{
+    margin: 0%;
 }

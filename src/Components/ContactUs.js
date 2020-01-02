@@ -7,17 +7,17 @@ function ContactUs(props){
             <div className='contact-form'>
                 <form>
                     <div className='email-header'>
-                        <div>
+                        <div className='email-address-container'>
                             email:
                             <input type='text' id='emailAdress'></input>
                         </div>
-                        <div>
+                        <div className='email-subject-container'>
                             subject:
                             <input type='text' id='emailSubject'></input>
                         </div>
                     </div>
                     <div className='email-contant'>
-                        <textarea id='email-content-text' rows='10' cols='45'></textarea>
+                        <textarea id='email-content-text' rows='10' cols='45' placeholder='Email Content'></textarea>
                     </div>
                 </form>
             </div>

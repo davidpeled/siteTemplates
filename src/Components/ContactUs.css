@@ -7,24 +7,26 @@
     width: 75%;
 }
 
+.email-header{
+    width: 100%;
+    margin: 1%;
+}
+
 .office-map{
     display: inline;
 }
 
 .email-header > div{
-    display: inline;
+    display: contents;
     padding: 1%;
+    width: 49%;
+}
+
+textarea{
+    width: 98%;
 }
 
 .email-contant{
     margin: 1%;
     width: 100%;
-}
-
-#emailAdress{
-    width: 30%;
-}
-
-#emailSubject{
-    width: 30%;
 }
